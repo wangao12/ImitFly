@@ -1,0 +1,31 @@
+{
+  "model": "imitfly",
+  "sequence_length": 5,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "epochs": 260,
+  "seed": 0,
+  "cpu_threads": 2,
+  "train_episodes": [
+    "episode_0001.npz",
+    "episode_0002.npz",
+    "episode_0003.npz",
+    "episode_0004.npz",
+    "episode_0005.npz",
+    "episode_0006.npz",
+    "episode_0007.npz",
+    "episode_0008.npz",
+    "episode_0009.npz",
+    "episode_0010.npz",
+    "episode_0011.npz",
+    "episode_0012.npz",
+    "episode_0013.npz",
+    "episode_0014.npz",
+    "episode_0015.npz",
+    "episode_0016.npz",
+    "episode_0017.npz",
+    "episode_0018.npz"
+  ],
+  "validation_episodes": [],
+  "loss": "kl"
+}

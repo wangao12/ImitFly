@@ -1,0 +1,12 @@
+# Reference dependency versions; choose an appropriate PyTorch wheel for your machine.
+numpy==1.26.4
+torch==2.5.1
+torchvision==0.20.1
+snntorch==0.9.4
+Pillow==12.3.0
+dm-control==1.0.47
+mujoco==3.14.0
+dm-env==1.6
+scipy==1.15.3
+h5py==3.12.1
+opencv-python==4.10.0.84

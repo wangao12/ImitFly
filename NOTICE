@@ -1,0 +1,18 @@
+ImitFly research code
+
+This release includes selected FlyBody source files and mesh/XML assets from the
+local research project, derived from https://github.com/TuragaLab/flybody.
+FlyBody was developed by HHMI Janelia Research Campus and Google DeepMind.
+The original Apache License 2.0 is retained in LICENSE, and the original project
+README is retained in docs/FLYBODY_UPSTREAM_README.md. Existing file notices are
+preserved. The upstream commit of this local copy could not be established
+because the source folder has no readable Git history.
+
+ImitFly policy and experimental software are attributed to Ao Wang, Ziyu Liu,
+Yingjie He, Xiaopeng Sha, and Shuyu Wang. This derivative release uses the
+existing project Apache License 2.0. Checkpoint binaries, expert policies,
+datasets, wingbeat data, and manuscript drafts are not distributed here.
+
+See docs/SOURCE_MAP.md for the main source-to-release mapping.
+Local FlyBody task/asset files may already contain research modifications;
+"copied unchanged" means unchanged relative to the local source, not upstream.

@@ -1,0 +1,13 @@
+# Historical teacher stack: use a SEPARATE Python 3.10 environment.
+# TensorFlow 2.8 must not be installed alongside the student NumPy 1.26 pin.
+numpy==1.23.5
+protobuf==3.20.3
+tensorflow==2.8.0
+tensorflow-probability==0.16.0
+dm-sonnet==2.0.2
+dm-env==1.6
+dm-control==1.0.47
+mujoco==3.14.0
+scipy==1.15.3
+h5py==3.12.1
+Pillow==12.3.0

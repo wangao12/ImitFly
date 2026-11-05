@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the ImitFly manuscript and FlyBody."
+title: "ImitFly: Bio-Inspired Sensorimotor Priors Enable Sample-Efficient Cross-Embodiment Control"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Wang
+    given-names: Ao
+  - family-names: Liu
+    given-names: Ziyu
+  - family-names: He
+    given-names: Yingjie
+  - family-names: Sha
+    given-names: Xiaopeng
+  - family-names: Wang
+    given-names: Shuyu

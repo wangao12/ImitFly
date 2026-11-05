@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imitfly"
+version = "0.1.0"
+description = "ImitFly fruit-fly visuomotor policy and offline Gaussian policy distillation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Ao Wang"}, {name = "Ziyu Liu"}, {name = "Yingjie He"}, {name = "Xiaopeng Sha"}, {name = "Shuyu Wang"}]
+dependencies = ["numpy==1.26.4", "torch>=2.5,<2.6", "torchvision>=0.20,<0.21", "snntorch==0.9.4", "Pillow>=10,<13"]
+
+[project.optional-dependencies]
+sim = ["dm-control==1.0.47", "mujoco==3.14.0", "dm-env==1.6", "scipy>=1.11,<2", "h5py>=3.10,<4", "opencv-python>=4.8,<5"]
+
+[project.scripts]
+imitfly-train = "imitfly.cli.train:main"
+imitfly-evaluate-walking = "imitfly.cli.evaluate_walking:main"
+imitfly-evaluate = "imitfly.cli.evaluate:main"
+imitfly-convert-data = "imitfly.cli.convert_data:main"
+imitfly-collect = "imitfly.cli.collect:main"
+imitfly-check-checkpoint = "imitfly.cli.check_checkpoint:main"
+
+[tool.setuptools.packages.find]
+include = ["imitfly*", "flybody*"]
+
+[tool.setuptools.package-data]
+imitfly = ["configs/*.json"]
+flybody = ["fruitfly/assets/*.obj", "fruitfly/assets/*.xml"]
+
